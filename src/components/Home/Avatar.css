@@ -1,0 +1,20 @@
+/* Avatar.css */
+.avatar-container {
+    width: 217px; /* Adjust the width as necessary */
+    height: 217px; /* Adjust the height to maintain aspect ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; /* Makes the image round */
+    background-color: #8a4ca8; /* Background color from your SVG */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #972dc2; /* Mimicking the circle background */
+  }
+  
+  .avatar-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space/gap */
+  }
+  
